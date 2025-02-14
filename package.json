@@ -1,0 +1,10 @@
+{
+  "name": "knative-testing",
+  "version": "1.0.0",
+  "description": "Knative testing repository",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
