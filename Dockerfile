@@ -1,7 +1,7 @@
 # Use ARG to allow dynamic Node version and script file
 ARG NODE_VERSION=16
-ARG SCRIPT_FILE="server.js"  # Default file
-#ARG SCRIPT_FILE="calculator.js"
+#ARG SCRIPT_FILE="server.js"  # Default file
+ARG SCRIPT_FILE="calculator.js"
 # Set the base image with specified Node version
 FROM node:${NODE_VERSION}-alpine
 
