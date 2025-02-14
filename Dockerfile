@@ -18,6 +18,6 @@ RUN npm install
 ENV NAMESPACE=hur
 
 # Run the specified file dynamically
-CMD ["node", "${SCRIPT_FILE}"]
+CMD ["sh", "-c", "node $SCRIPT_FILE"]
 
 
