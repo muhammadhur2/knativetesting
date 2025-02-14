@@ -19,6 +19,6 @@ ENV NAMESPACE=hur
 
 # Run the specified file dynamically
 #CMD ["sh", "-c", "node $SCRIPT_FILE"]
-CMD ["node", "server.js"]
+CMD ["node", "calculator.js"]
 
 
